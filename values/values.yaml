@@ -1,1 +1,14 @@
+## values/values.yaml
+mariadb:
+  auth:
+    rootPassword: my-root-password
+    password: my-password
+
+wordpressUsername: admin
+wordpressPassword: adminpassword
+wordpressEmail: admin@example.com
+wordpressBlogName: "My WordPress Blog"
+
+service:
+  type: LoadBalancer
 
